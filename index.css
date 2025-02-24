@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75,475;1,75,475&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@media screen and(max-width:1200px){
+
+}
+@media screen and(max-width:998px){
+
+}
+@media screen and(max-width:768px){
+
+}
+
+
+
+body {
+    height: 7000px;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+#main_text {
+    color: white;
+    font-size: 40px;
+    color: #e1e1e1;
+    position: relative;
+    top: -100px;
+    left: 340px;
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    z-index: 1;
+}
+
+#rating_star {
+    font-size: 17px;
+    color: #f1cc5b;
+}
+
+.text {
+    letter-spacing: 2px;
+    color: white;
+    font-size: 13px;
+    color: #b3b3b3;
+    position: absolute;
+    top: 140px;
+    left: 320px;
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    z-index: 1;
+}
+
+
+#contacts_telegram {
+    font-size: 30px;
+    color: #e1e1ec;
+    position: absolute;
+    top: 20px;
+    left: 1450px;
+}
+
+#company_name {
+    letter-spacing: 3px;
+    font-size: 40px;
+    color: #e1e1ec;
+    position: relative;
+    top: -10px;
+    left: 20px;
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    z-index: 1;
+}
+
+.films_cards {
+    background-color: #191c1c;
+    position: absolute;
+    top: -400px;
+    left: 7%;
+    height: 8300px;
+    width: 50%;
+    z-index: -1;
+}
+
+.films_cards3 {
+    background-color: #191c1c;
+    position: absolute;
+    top: -400px;
+    left: 1450px;
+    height: 8300px;
+    width: 5%;
+    z-index: -1;
+}
+
+.films_cards2 {
+    background-color: #191c1c;
+    position: relative;
+    top: -120px;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+#FilmLogo {
+    position: relative;
+    top: 18px;
+    left: 10px;
+    z-index: 1;
+}
+
+/*section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    height: 90px;
+}*/
+
+#top_button {
+    display: flex;
+    gap: 60px;
+}
+
+.top_button {
+    position: relative;
+    top: -45px;
+    left: 950px;
+    letter-spacing: 0px;
+    color: white;
+    font-size: 20px;
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.films_container {
+    background-color: #ffffff;
+    width: 608px;
+
+    position: absolute;
+    top: 200px;
+    left: 11.5%;
+    height: 70%;
+    overflow-x: hidden;
+
+    border-radius: 10px;
+}
+
+.container_title {
+    text-align: left;
+    position: absolute;
+    left: 2%;
+    top: 290px;
+    font-size: 20px;
+    color: #8e9498;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    z-index: 2;
+}
+
+.container_year {
+    letter-spacing: 2px;
+    position: absolute;
+    top: 340px;
+    left: 2%;
+    font-size: 13px;
+    color: #8e9498;
+    text-align: left;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 2;
+}
+
+.container_director {
+    position: absolute;
+    letter-spacing: 1px;
+    top: 360px;
+    left: 2%;
+    font-size: 15px;
+    color: #8e9498;
+    text-align: left;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    z-index: 2;
+}
+
+.container_number {
+    background-color: 2;
+    position: absolute;
+    letter-spacing: 1px;
+    top: 20px;
+    left: 3%;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 5px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    z-index: 2;
+}
+
+.container_description {
+    position: absolute;
+    top: 390px;
+    left: 2%;
+    font-size: 13px;
+    color: #8e9498;
+    text-align: left;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    z-index: 2;
+}
+
+.container_image {
+    overflow: hidden;
+    position: absolute;
+    top:7px;
+    left: 1%;
+    width: 595px;
+    height: 320px;
+    border-radius: 10px;
+
+}
+
+.container_poster {
+    border-radius: 5px;
+    position: absolute;
+    top: 220px;
+    left: 80%;
+    z-index: 2;
+    box-shadow: -9px 5px 8px #1c1c1c;
+}
+
+.blur {
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+    top: 280px;
+    right: 5px;
+    height: 70px;
+    width: 600px;
+    background-color: #ffffff;
+    filter: blur(10px);
+
+}
+
+#movie_pianist {
+    position: absolute;
+    top: 750px;
+}
+
+#movie_will_hunting {
+    position: absolute;
+    top: 1300px;
+}
+
+#movie_shawshank_redemption {
+    position: absolute;
+    top: 1850px;
+}
+
+#movie_The_Silence_of_the_Lambs {
+    position: absolute;
+    top: 2400px;
+}
+
+#movie_Se7en {
+    position: absolute;
+    top: 2950px;
+}
+
+#movie_KNOF {
+    position: absolute;
+    top: 3500px;
+}
+
+#movie_STPR {
+    position: absolute;
+    top: 4050px;
+}
+
+#movie_DPS {
+    position: absolute;
+    top: 4600px;
+}
+
+
+#movie_LIB {
+    position: absolute;
+    top: 5150px;
+}
+
+#movie_Forrest {
+    position: absolute;
+    top: 5700px;
+}
+
+#movie_Interstellar {
+    position: absolute;
+    top: 6250px;
+}
+
+#movie_OFO {
+    position: absolute;
+    top: 6800px;
+}
+
+#movie_HR {
+    position: absolute;
+    top: 7350px;
+}
+
